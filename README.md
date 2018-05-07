@@ -8,7 +8,7 @@ By default, the website is checked every 1 minute, however, [you can change it t
 
 ### Screenshots:
 
-You will see the following green text when the website is up (online):
+You will see the following YouTube ticker in your Menu Bar when the plugin is setup:
 
 ![Ticker](https://i.imgur.com/2sX9yoq.jpg)
 
