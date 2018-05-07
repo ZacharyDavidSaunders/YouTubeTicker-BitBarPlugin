@@ -1,0 +1,29 @@
+{
+  "name": "youtubeticker-bitbarplugin",
+  "version": "1.0.0",
+  "description": "A MacOs Menu Bar (BitBar) plugin that displays your YouTube subscriber count.",
+  "main": "YouTubeTicker.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacharyDavidSaunders/YouTubeTicker-BitBarPlugin.git"
+  },
+  "keywords": [
+    "bitbar",
+    "macOs",
+    "Menu-Bar",
+    "YouTube"
+  ],
+  "author": "ZacharyDavidSaunders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZacharyDavidSaunders/YouTubeTicker-BitBarPlugin/issues"
+  },
+  "homepage": "https://github.com/ZacharyDavidSaunders/YouTubeTicker-BitBarPlugin#readme",
+  "dependencies": {
+    "intl": "^1.2.5",
+    "socialblade-data": "0.0.6"
+  }
+}
