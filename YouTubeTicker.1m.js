@@ -50,13 +50,13 @@ function renderPlugin(){
         addCommas(arrayOfStats, function(formattedArrayOfStats){
           console.log(channelName + ": "+formattedArrayOfStats[0]+" Subscribers| color="+color+" image="+ youTubeIcon);
           console.log("---");
+          console.log("Refresh|refresh=true");
+          console.log("---");
           console.log("More Channel Statistics")
           console.log("-- Total Number Of Videos: "+formattedArrayOfStats[3]);
           console.log("-- Total Number Of Views: "+formattedArrayOfStats[1]);
           console.log("-- Total Number Of Comments: "+formattedArrayOfStats[2]);
-          console.log("---");
-          console.log("Refresh|refresh=true");
-          console.log("Channel ID: "+ id);
+          console.log("-- Channel ID: "+ id);
           console.log("---");
           console.log("Visit "+channelName+"'s channel. [Click to visit YouTube channel]|href=https://www.youtube.com/user/"+channelName);
           console.log("Visit "+channelName+"'s Social-Blade page. [Click to visit site]|href=https://socialblade.com/youtube/user/"+channelName);
